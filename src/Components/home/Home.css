@@ -1,0 +1,22 @@
+header{
+margin: 0;
+background-image: url("https://newevolutiondesigns.com/images/freebies/city-facebook-cover-preview-28.jpg");
+pointer-events : none;
+position: relative;
+z-index : 99999;
+background-size : cover;
+background-repeat: no-repeat;
+height: 150px;
+width: 100%;
+resize: both;
+background-position: center;
+}
+
+#photos{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+footer{
+    height: 150px;
+    width: 100%;
+    }
