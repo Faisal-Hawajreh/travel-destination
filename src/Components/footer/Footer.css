@@ -3,14 +3,14 @@ p {
     text-align: center;
   }
 
-a:link {
+footer a {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     text-decoration: none;
     color: black;
     text-align: center;
 }
-a:hover {
+footer a:hover {
     text-decoration: underline;
   }
 #linkedIn{

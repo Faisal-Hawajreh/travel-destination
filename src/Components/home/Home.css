@@ -1,7 +1,6 @@
 header{
 margin: 0;
 background-image: url("https://newevolutiondesigns.com/images/freebies/city-facebook-cover-preview-28.jpg");
-pointer-events : none;
 position: relative;
 z-index : 99999;
 background-size : cover;

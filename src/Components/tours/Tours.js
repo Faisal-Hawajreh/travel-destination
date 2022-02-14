@@ -1,17 +1,13 @@
 import "./Tours.css";
+import Tour from "./tour/Tour";
 function Tours(props){
-    // console.log(props)
-    return(<>
+
+    return(
+    <>
     {
-        props.myData.map((city,index)=>{
-            return(
-                <div key={index}>
-                <h2>{city.name}</h2>
-                <img src={city.image} alt={city.name}/>
-                </div>
-            )
-        }
-        )
+        props.myData.map((tour,index)=>{
+            return <Tour tour={tour} key={index}/>   
+        })
     }
     </>
 )
