@@ -18,10 +18,15 @@ function TourDetails(props){
 
     return(
         <>
+        <p>id : {City[0].id}</p>
         <h2>{City[0].name}</h2>
+        <br></br>
         {SeeMore?<p>{City[0].info.slice(0,350) }<span onClick={HandleClick}> (show more...)</span></p>
         :<p>{City[0].info} <span onClick={HandleClick}> (...show less)</span></p>}
-
+        <br></br>
+        <img src={City[0].image} alt={City[0].name}/>
+        <br></br>
+        <h2>Price : {City[0].price}</h2>
         </>
         
     )
